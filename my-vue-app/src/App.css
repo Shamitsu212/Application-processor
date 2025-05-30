@@ -1,0 +1,67 @@
+#root {
+  width: 1920px;
+  margin: 0 auto;
+  
+  text-align: center;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Reset всех отступов, границ и размеров */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Убираем стандартные стили списков */
+ul, ol {
+  list-style: none;
+}
+
+/* Убираем стандартное оформление ссылок */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Удаляем обводку у кнопок и полей */
+button, input, textarea, select {
+  outline: none;
+  border: none;
+  background: none;
+  font: inherit;
+}
+
+/* Убираем курсив у address и т.д. */
+address, cite, dfn, em, i {
+  font-style: normal;
+}
+
+/* Убираем жирность у b и strong */
+b, strong {
+  font-weight: normal;
+}
+
+/* Убираем стили заголовков */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: normal;
+}
+
+/* Наследуем шрифт и размер по умолчанию */
+body {
+  line-height: 1;
+  font-family: sans-serif;
+  background-color: #1E1E1E;
+  color: #000;
+  height: 100vh;
+}
+
+/* Обнуляем таблицы */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
